@@ -1,8 +1,8 @@
 <?php
 ob_start();
-define('API_KEY','[*315860669:AAF1Mb_DgVEgh8pWE3Tk1wIP5O3vfOI6LTc*]');
-$admin =  "365910979";
-$admin2 = "314146298";
+define('API_KEY','[*bot484300818:AAEef_pVudvSWs-GXJesxxi3a8KgljsMNYw*]');
+$admin =  "98221508";
+$admin2 = "417079230";
 $GetINFObot = json_decode(file_get_contents("https://api.telegram.org/bot".API_KEY."/getMe"));
 $UserNameBot = $GetINFObot->result->username;
 function save($filename,$TXTdata){
